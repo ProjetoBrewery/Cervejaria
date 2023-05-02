@@ -4,14 +4,24 @@ desc processos;
 
  create table processos (
 id int primary key auto_increment,
-maceracao decimal(4,2),
-malteacao decimal(4,2),
-moagem decimal(4,2),
-brassagem decimal(4,2),
-fervura decimal(4,2),
-resfriamento decimal(4,2),
-fermentacao decimal(4,2),
-maturacao decimal(4,2),
-filtragem decimal(4,2),
-pasteurizacao decimal(4,2)
+maceracao1 decimal(4,2),
+malteacao1 decimal(4,2),
+malteacao2 decimal(4,2),
+malteacao3 decimal(4,2),
+moagem1 decimal(4,2),
+brassagem1 decimal(4,2),
+brassagem2 decimal(4,2),
+brassagem3 decimal(4,2),
+fervura1 decimal(4,2),
+resfriamento1 decimal(4,2),
+resfriamento2 decimal(4,2),
+resfriamento3 decimal(4,2),
+fermentacao1 decimal(4,2),
+maturacao1 decimal(4,2),
+pasteurizacao1 decimal(4,2),
+servir1 decimal(4,2)
 );
+
+desc processos;
+
+
